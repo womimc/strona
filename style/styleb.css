@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+        }
+
+#div {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: black;
+}
+
+#menu {
+    background-color: gray;
+}
+
+#kontakt {
+    background-color: black;
+}
+
+a.menu {
+    display: inline-block;
+    width: 100%;
+    padding: 33px 30px 33px 30px;
+    color: lightgreen;
+    text-align: center;
+	text-decoration: none;
+}
+
+
+a.menu:hover {
+    color: black;
+    background-color: cornflowerblue;
+	text-decoration: none;
+}
+
+a.active {
+    background-color: darkcyan;
+}
+
+a.button {
+  background-color: dodgerblue ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+a.button:hover {
+    color: black;
+    background-color: limegreen;
+}
+

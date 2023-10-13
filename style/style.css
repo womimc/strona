@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+        }
+
+#div {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: darkblue;
+}
+
+#menu {
+    background-color: gray;
+}
+
+#kontakt {
+    background-color: black;
+}
+
+a.menu {
+    display: inline-block;
+    width: 100%;
+    padding: 33px 30px 33px 30px;
+    color: lightgreen;
+    text-align: center;
+	text-decoration: none;
+}
+
+
+a.menu:hover {
+    color: black;
+    background-color: cornflowerblue;
+	text-decoration: none;
+}
+
+
+a.active {
+    background-color: darkcyan;
+}
+
+#regulamin {
+	text-align: center;
+	color: lime;
+	background-color: gray;
+	font-size: 50px;
+	display: block;
+}
+
+
+
+#zasady {
+	background-color: black;
+    color: lime;
+    text-align: center;
+}
+
+a.button {
+  background-color: dodgerblue ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+a.button:hover {
+    color: black;
+    background-color: limegreen;
+}
+
+#vip-cala {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #ccc;
+    padding: 10px;
+	background-color: white;
+}
+
+#vip-nazwa {
+    margin: 0;
+}
+
+#vip-cena {
+    margin: 0;
+}
+
+a.kup-vip {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+	font-size: 20px;
+	border-radius: 100px
+}
+
+a.kup-vip:hover {
+    background-color: limegreen;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+#svip-cala {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #ccc;
+    padding: 10px;
+	background-color: white;
+}
+
+#svip-nazwa {
+    margin: 0;
+}
+
+#svip-cena {
+    margin: 0;
+}
+
+a.kup-svip {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+	font-size: 20px;
+	border-radius: 100px
+}
+
+a.kup-svip:hover {
+    background-color: limegreen;
+	font-size: 20px;
+}
+#sponsor-cala {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #ccc;
+    padding: 10px;
+	background-color: white;
+}
+
+#sponsor-nazwa {
+    margin: 0;
+}
+
+#sponsor-cena {
+    margin: 0;
+}
+
+a.kup-sponsor {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+	font-size: 20px;
+	border-radius: 100px
+}
+
+a.kup-sponsor:hover {
+    background-color: limegreen;
+	font-size: 20px;
+}
