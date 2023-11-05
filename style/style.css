@@ -172,3 +172,17 @@ a.kup-sponsor:hover {
     background-color: limegreen;
 	font-size: 20px;
 }
+
+@media (orientation: portrait) {
+	#stan_serwera {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+@media (orientation: landscape) {
+	#stan_serwera {
+		width: 100%;
+		height: 110px;
+	}
+}
