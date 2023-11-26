@@ -59,7 +59,7 @@ a.active {
     text-align: center;
 }
 
-a.button {
+a.kontakt {
   background-color: dodgerblue ;
   border: none;
   color: white;
@@ -73,7 +73,7 @@ a.button {
   cursor: pointer;
 }
 
-a.button:hover {
+a.kontakt:hover {
     color: black;
     background-color: limegreen;
 }
