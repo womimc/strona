@@ -78,17 +78,22 @@ a.kontakt:hover {
     background-color: limegreen;
 }
 
+#tabela-rangi {
+    width: 100%;
+    background-color: white;
+}
+
 #vip-cala {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0px solid #ccc;
+    border: 0px #ccc;
     padding: 10px;
 	background-color: white;
 }
 
 #vip-nazwa {
     margin: 0;
+    width: 900px;
 }
 
 #vip-cena {
@@ -112,10 +117,9 @@ a.kup-vip:hover {
 }
 
 #svip-cala {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0px solid #ccc;
+    border: 0px #ccc;
     padding: 10px;
 	background-color: white;
 }
@@ -143,10 +147,9 @@ a.kup-svip:hover {
 	font-size: 20px;
 }
 #sponsor-cala {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0px solid #ccc;
+    border: 0px #ccc;
     padding: 10px;
 	background-color: white;
 }
