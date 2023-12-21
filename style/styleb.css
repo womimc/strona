@@ -61,3 +61,23 @@ a.button:hover {
     background-color: limegreen;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 1000px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownarrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

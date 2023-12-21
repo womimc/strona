@@ -11,7 +11,7 @@ body {
 #div {
     max-width: 1000px;
     margin: 0 auto 0 auto;
-    background-color: darkblue;
+    background-color: black;
 }
 
 #menu {
@@ -59,4 +59,25 @@ a.button {
 a.button:hover {
     color: black;
     background-color: limegreen;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 1000px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownarrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
