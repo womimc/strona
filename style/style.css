@@ -14,33 +14,8 @@ body {
     background-color: black;
 }
 
-#menu {
-    background-color: gray;
-}
-
 #kontakt {
     background-color: black;
-}
-
-a.menu {
-    display: inline-block;
-    width: 100%;
-    padding: 33px 30px 33px 30px;
-    color: lightgreen;
-    text-align: center;
-	text-decoration: none;
-}
-
-
-a.menu:hover {
-    color: black;
-    background-color: cornflowerblue;
-	text-decoration: none;
-}
-
-
-a.active {
-    background-color: darkcyan;
 }
 
 #regulamin {
@@ -190,23 +165,50 @@ a.kup-sponsor:hover {
 	}
 }
 
-.dropdown {
-    position: relative;
+.dropbtn {
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-checkbox {
+    display: none;
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
-    min-width: 1000px;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown-checkbox:checked + .dropdown-content {
     display: block;
 }
 
-.dropdownarrow {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+a.menu {
+    max-width: 1000px;
+    display: inline-block;
+    width: 1000px;
+    padding: 33px 30px 33px 30px;
+    color: lightgreen;
+    text-align: center;
+	text-decoration: none;
+    background-color: gray;
+}
+
+
+a.menu:hover {
+    color: black;
+    background-color: cornflowerblue;
+	text-decoration: none;
+}
+
+a.active {
+    background-color: darkcyan;
 }
