@@ -156,6 +156,33 @@ a.kup-sponsor:hover {
 		width: 100%;
 		height: 200px;
 	}
+    a.menu {
+        max-width: 1000px;
+        width: 100%;
+        display: inline-block;
+        padding: 33px 30px 33px 30px;
+        color: lightgreen;
+        text-align: center;
+        text-decoration: none;
+        background-color: gray;
+    }
+    
+    
+    a.menu:hover {
+        color: black;
+        background-color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    a.active {
+        background-color: darkcyan;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
 }
 
 @media (orientation: landscape) {
@@ -163,6 +190,32 @@ a.kup-sponsor:hover {
 		width: 100%;
 		height: 110px;
 	}
+    a.menu {
+        width: 1000px;
+        display: inline-block;
+        padding: 33px 30px 33px 30px;
+        color: lightgreen;
+        text-align: center;
+        text-decoration: none;
+        background-color: gray;
+    }
+    
+    
+    a.menu:hover {
+        color: black;
+        background-color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    a.active {
+        background-color: darkcyan;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 1000px;
+    }
 }
 
 .dropbtn {
@@ -189,26 +242,4 @@ a.kup-sponsor:hover {
   
 .dropdown-checkbox:checked + .dropdown-content {
     display: block;
-}
-
-a.menu {
-    max-width: 1000px;
-    display: inline-block;
-    width: 1000px;
-    padding: 33px 30px 33px 30px;
-    color: lightgreen;
-    text-align: center;
-	text-decoration: none;
-    background-color: gray;
-}
-
-
-a.menu:hover {
-    color: black;
-    background-color: cornflowerblue;
-	text-decoration: none;
-}
-
-a.active {
-    background-color: darkcyan;
 }
