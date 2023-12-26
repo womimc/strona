@@ -18,7 +18,7 @@ body {
     background-color: black;
 }
 
-a.button {
+a.kontakt {
   background-color: dodgerblue ;
   border: none;
   color: white;
@@ -32,9 +32,68 @@ a.button {
   cursor: pointer;
 }
 
-a.button:hover {
+a.kontakt:hover {
     color: black;
     background-color: limegreen;
+}
+
+@media (orientation: portrait) {
+    a.menu {
+        max-width: 1000px;
+        width: 100%;
+        display: inline-block;
+        padding: 33px 30px 33px 30px;
+        color: lightgreen;
+        text-align: center;
+        text-decoration: none;
+        background-color: gray;
+    }
+    
+    
+    a.menu:hover {
+        color: black;
+        background-color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    a.active {
+        background-color: darkcyan;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    a.menu {
+        width: 1000px;
+        display: inline-block;
+        padding: 33px 30px 33px 30px;
+        color: lightgreen;
+        text-align: center;
+        text-decoration: none;
+        background-color: gray;
+    }
+    
+    
+    a.menu:hover {
+        color: black;
+        background-color: cornflowerblue;
+        text-decoration: none;
+    }
+    
+    a.active {
+        background-color: darkcyan;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 1000px;
+    }
 }
 
 .dropbtn {
@@ -61,26 +120,4 @@ a.button:hover {
   
 .dropdown-checkbox:checked + .dropdown-content {
     display: block;
-}
-
-a.menu {
-    max-width: 1000px;
-    display: inline-block;
-    width: 1000px;
-    padding: 33px 30px 33px 30px;
-    color: lightgreen;
-    text-align: center;
-	text-decoration: none;
-    background-color: gray;
-}
-
-
-a.menu:hover {
-    color: black;
-    background-color: cornflowerblue;
-	text-decoration: none;
-}
-
-a.active {
-    background-color: darkcyan;
 }
