@@ -38,6 +38,13 @@ a.kontakt:hover {
 }
 
 @media (orientation: portrait) {
+    #stan_serwera {
+		display: none;
+	}
+
+    #stan_serwera_portrait {
+        color: white;
+    }
     a.menu {
         max-width: 1000px;
         width: 100%;
@@ -68,6 +75,14 @@ a.kontakt:hover {
 }
 
 @media (orientation: landscape) {
+    #stan_serwera_portrait {
+        display: none;
+    }
+    
+    #stan_serwera {
+		width: 100%;
+	}
+    
     a.menu {
         width: 1000px;
         display: inline-block;
