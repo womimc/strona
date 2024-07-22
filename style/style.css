@@ -6,33 +6,45 @@
 }
 #ip {
 	color: white;
-	position: absolute;
 	text-align: center;
-	margin-top: -85px;
-	width: 100%;
-}
-.copyip {
-	padding: 10px 80px;
-	background-color: rgb(145, 145, 145);
-	border: solid 3px rgb(82, 82, 82);
-	transition-duration: 250ms;
-	border-radius: 15px;
-	opacity: 90%;
+	position: relative;
+	margin-top: -90px
 }
 
-.copyipcenter {
+.copyip {
+	background-color: rgb(121, 121, 121);
+	border: solid 2px rgb(82, 82, 82);
+	transition: 250ms;
+	border-radius: 15px;
+	padding: 10px 70px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.copyip p {
+	color: white;
+	margin-top: -35px;
+	margin-bottom: 8px;
+	font-size: 20px;
+	margin-left: 30%;
 	width: max-content;
-	margin: auto;
-	margin-top: 200px;
 }
 
 .copyip:hover {
 	filter: brightness(90%);
 	cursor: pointer;
-	transition-duration: 250ms;
+	transition: 250ms;
 }
 .copyico {
-	width: 30px;
+	margin-top: -5px;
+	width: 50px;
+	display: block;
+	margin-left: -60px
+}
+#centerip {
+	width: max-content;
+	margin: auto;
+	margin-top: 200px;
 }
 
 body {
@@ -171,7 +183,7 @@ a.nawigacja:hover {
 }
 
 #error a.glowna {
-	background-color: rgb(0, 140, 255);
+	background-color: rgb(22, 95, 221);
 	padding: 26px 36px;
 	width: 450px;
 	border-radius: 15px;
@@ -183,6 +195,7 @@ a.nawigacja:hover {
 	margin-top: 20px;
 	display: inline-block;
 }
+
 #error #tlo {
 	background: url(https://i.imgur.com/iLRD4Vp.png);
     position: absolute;
