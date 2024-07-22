@@ -8,7 +8,7 @@
 	color: white;
 	position: absolute;
 	text-align: center;
-	margin-top: -6%;
+	margin-top: -85px;
 	width: 100%;
 }
 .copyip {
@@ -23,7 +23,7 @@
 .copyipcenter {
 	width: max-content;
 	margin: auto;
-	margin-top: 16%;
+	margin-top: 200px;
 }
 
 .copyip:hover {
@@ -33,7 +33,6 @@
 }
 .copyico {
 	width: 30px;
-	margin-left: 3px;
 }
 
 body {
@@ -43,7 +42,7 @@ body {
 .tlo {
 	background-image: url(https://i.imgur.com/I8Eu5p0.jpeg);
     position: absolute;
-    z-./: -1;
+    z-index: -1;
     background-size: cover;
     top: 0;
     left: 0;
@@ -156,13 +155,49 @@ a.nawigacja:hover {
 	background: #71B038;
   }
 
-/* 404 */
+/* 404.html */
 
 #error .center {
     position: absolute;
     top: 50%;
     left: 50%;
+	width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
-    text-decoration: none;
+}
+#error .glowna:hover {
+	filter: brightness(80%);
+	transition: 400ms;
+}
+
+#error a.glowna {
+	background-color: rgb(0, 140, 255);
+	padding: 26px 36px;
+	width: 450px;
+	border-radius: 15px;
+	transition: 400ms;
+	color: white;
+	text-decoration: none;
+	font-size: 140%;
+	font-family: monospace;
+	margin-top: 20px;
+	display: inline-block;
+}
+#error #tlo {
+	background: url(https://i.imgur.com/iLRD4Vp.png);
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width: 100%;
+}
+
+#error #errorh1 {
+	font-size: 180px;
+	margin-top: -50px;
+	color: white;
+	font-family: system-ui
 }
